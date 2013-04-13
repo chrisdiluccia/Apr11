@@ -16,6 +16,7 @@
 		392DA0511718E8A30004AAD6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 392DA0501718E8A30004AAD6 /* Default@2x.png */; };
 		392DA0531718E8A30004AAD6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 392DA0521718E8A30004AAD6 /* Default-568h@2x.png */; };
 		392DA0781718E9750004AAD6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 392DA0771718E9750004AAD6 /* AVFoundation.framework */; };
+		39DB6043171A067300F551C6 /* entertainer.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 39DB6042171A067300F551C6 /* entertainer.m4a */; };
 		39EBB9921719A18700A76575 /* Apr11AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EBB9861719A18700A76575 /* Apr11AppDelegate.m */; };
 		39EBB9931719A18700A76575 /* MusicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EBB9881719A18700A76575 /* MusicView.m */; };
 		39EBB9941719A18700A76575 /* ScottJoplin.png in Resources */ = {isa = PBXBuildFile; fileRef = 39EBB9891719A18700A76575 /* ScottJoplin.png */; };
@@ -39,6 +40,7 @@
 		392DA0501718E8A30004AAD6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		392DA0521718E8A30004AAD6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		392DA0771718E9750004AAD6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		39DB6042171A067300F551C6 /* entertainer.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = entertainer.m4a; sourceTree = "<group>"; };
 		39EBB9851719A18700A76575 /* Apr11AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Apr11AppDelegate.h; sourceTree = "<group>"; };
 		39EBB9861719A18700A76575 /* Apr11AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Apr11AppDelegate.m; sourceTree = "<group>"; };
 		39EBB9871719A18700A76575 /* MusicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicView.h; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 		392DA0431718E8A30004AAD6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				39DB6042171A067300F551C6 /* entertainer.m4a */,
 				39EBB98F1719A18700A76575 /* Web.png */,
 				39EBB9891719A18700A76575 /* ScottJoplin.png */,
 				39EBB98A1719A18700A76575 /* Text.png */,
@@ -191,6 +194,7 @@
 				39EBB9941719A18700A76575 /* ScottJoplin.png in Resources */,
 				39EBB9951719A18700A76575 /* Text.png in Resources */,
 				39EBB9981719A18700A76575 /* Web.png in Resources */,
+				39DB6043171A067300F551C6 /* entertainer.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
