@@ -103,6 +103,7 @@ tabBarController didSelectViewController: (UIViewController *) viewController {
     else if ([last isEqualToString: @"Music View"])
     {
 		//We are leaving the Audio tab.
+        v = ((UIViewController *)[tabBarController.viewControllers objectAtIndex: 2]); //go to the 'musicView' view Controller to issue the pause command
 		[v.audioPlayer pause];
         NSLog(@"PAUSE!");
 	}
